@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Array-Utils   .*/Array-Utils-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

@@ -1,0 +1,20 @@
+Source: libarray-utils-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libarray-utils-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libarray-utils-perl.git
+Homepage: https://metacpan.org/release/Array-Utils
+Testsuite: autopkgtest-pkg-perl
+
+Package: libarray-utils-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: collection of small utils for array manipulation
+ Array::Utils is a small pure-perl module containing list manipulation routines.
+ The module emerged to avoid including the same utility routines in
+ numerous projects.

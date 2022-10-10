@@ -1,0 +1,12 @@
+libarray-utils-perl (0.5-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 00:47:43 +0100
+
+libarray-utils-perl (0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #805764).
+
+ -- Doug Torrance <dtorrance@piedmont.edu>  Sun, 22 Nov 2015 03:02:07 -0500
